@@ -6,6 +6,6 @@ random20 = Math.floor(Math.random() * dice20.length);
 console.log(random20);
 }
 
-function printMessage(){
+function printMessage2(){
     document.getElementById('d20-out').innerHTML = random20 + 1
 }
